@@ -1,0 +1,172 @@
+
+
+        .main-content{
+            
+            display: grid;
+            grid-template-columns: 300px 700px;
+            min-height: 1000px;
+            width: 90%;
+        }
+        
+        .left-section{
+            background-color: aquamarine;
+
+        }
+        
+        .right-section{
+            background-color: coral;
+        }
+        
+        .left-content{
+            padding: 1 rem;
+        }
+        
+        .profile-image{
+            display: block;
+            align-content: center;
+            margin: auto;
+            border: 5px solid white;
+            border-radius: 30%;
+            width: 60%;
+        }
+        .name{
+            font-size: 1.2 rem;
+            font-weight: 700;
+            align-content: center;
+            letter-spacing: 0.02px;
+            text-transform: uppercase;
+            padding: 0.8rem;
+        }
+        
+        .designation{
+            font-size: 1rem;
+            padding-bottom: 0.5rem;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        .description{
+            font-size: 0.75rem;
+            align-content: center;
+            padding: 1rem;
+            text-align: justify;
+            
+            
+        }
+        .social-media{
+            display: flex;
+            flex-direction: row;
+        }
+        .social-media{
+            justify-content: center;
+        }
+        .icon{
+            width: 20px;
+            height: 20px;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+        .personal-details{
+            display: flex;
+            flex-direction: column;
+        }
+        
+/*
+        .mail{
+            display: grid;
+            grid-template-columns: 2% 2%;
+            grid-template-rows: 2% 2%;
+        }     
+        #id1{
+            grid-column-start: 1
+            grid-row-start: 2;   
+            
+        }
+        #id2{
+            grid-column-start: 2;
+            grid-row-start: 1;
+        }
+        #id3{
+            grid-row-start: 2;
+            grid-column-start: 1;
+            
+        }
+*/
+        .skills{
+            font-size: 0.75rem;
+            text-align: center;
+            text-transform: uppercase;
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+        }
+        .skill-name{
+            font-size: 0.65rem;
+            font-weight: 0.65rem;
+            text-align: left;
+            padding-bottom: 0.5rem;  
+            text-transform: uppercase;
+        }
+        .progress-bar{
+            border: 1px white solid;
+            height: 4px;
+        }
+        #html{
+             width: 80%;
+            background-color: darkgrey;
+        }
+        #css{
+            width: 70%;
+            background-color: darkgrey;
+        }
+        #js{
+            width: 60%;
+            background-color: darkgray;
+        }
+        #react{
+            width: 50%;
+            background-color: darkgrey;
+        }
+        
+        
+        .right-main-content{
+            padding-bottom: 2rem;
+            padding-top: 2rem;
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+        .right-titles{
+            font-size: 1.2rem;
+            font-weight: 700;
+            padding: 0.5rem;
+            letter-spacing: 1px;
+/*            text-transform: uppercase;*/
+        }
+        .para{
+            text-align: justify;
+            font-size: 15px
+        }
+        
+        table, th, td {
+              border: 1px solid white;
+              border-collapse: collapse;
+/*              padding: 0.5px;*/
+            }
+        @media screen and (max-width: 673px){
+            .main-content{
+                display: grid;
+            
+                background-color: red;
+                grid-template-columns: repeat(1, 1fr);
+/*
+                grid-template-areas: 
+                    'left-section'
+                    'right-section'    
+                grid-template-rows: 500px 500px;
+*/
+/*
+                min-height: 1000px;
+                width: 90%;
+*/
+            } 
+        }
